@@ -6,7 +6,7 @@ Este conjunto de datos incluye detalles como la cantidad de unidades vendidas, l
 En este informe de análisis de ventas, analizamos en profundidad el desempeño de Adidas, una marca líder mundial de ropa deportiva, durante el año pasado. Aprovechando herramientas de análisis de datos como Excel, Python y Power Bi, nuestro objetivo es brindar información valiosa sobre el desempeño de ventas, las tendencias del mercado y las oportunidades de crecimiento de Adidas. 
 Este informe destaca métricas clave, analiza el desempeño del producto, examina las tendencias de ventas regionales y ofrece recomendaciones estratégicas para optimizar las ventas y mantener una ventaja competitiva en la industria de la ropa deportiva. A través del uso de bibliotecas de Python, limpieza de datos, análisis exploratorio de datos y visualizaciones impactantes, obtuvimos información útil sobre los factores que impulsan el crecimiento de las ventas e identificamos oportunidades para una mayor optimización. Este análisis servirá como base para la toma de decisiones basada en datos y la planificación estratégica en Adidas.
 
-##  BASE Y REQUISITO:
+##  BASE Y REQUISITOS:
 El conjunto de datos utilizado para este proyecto se obtuvo de Kaggle y se denominó “Conjunto de datos de ventas de Adidas” y se convirtió de un archivo XLSX a un archivo CSV para facilitar su manejo. 
 El aspecto analítico del proyecto se llevó a cabo dentro del entorno Python de Google Colaboratory, mientras que se aprovechó Microsoft Power BI para crear paneles interactivos. 
 El conjunto de datos se recopiló en una hoja de cálculo (Microsoft Excel) con encabezados de columna que incluyen:
@@ -26,7 +26,7 @@ Este paso nos ayuda a identificar valores faltantes, valores atípicos, tendenci
 8. ¿Qué minorista realizó la compra más alta y la más baja?
 
 ## MÉTODOS UTILIZADOS:
-# Limpieza y preprocesamiento de datos:
+### Limpieza y preprocesamiento de datos:
 El primer paso en cualquier análisis de datos es garantizar la calidad y la fiabilidad de los mismos. 
 La limpieza y el preprocesamiento de los datos son fundamentales para eliminar inconsistencias y preparar el conjunto de datos para el análisis.
 
@@ -39,29 +39,29 @@ Estas bibliotecas ayudarán a realizar análisis de manera eficiente.
 2) Este paso implica importar la biblioteca de Python necesaria, normalmente Pandas, para cargar el conjunto de datos desde un archivo CSV.
    Este es el primer paso para que los datos estén disponibles para su análisis.
 
-# Comprobación de la forma del marco de datos:
+### Comprobación de la forma del marco de datos:
 
 3) Este es un paso básico para comprender el tamaño del conjunto de datos. Devuelve la cantidad de filas y columnas en el marco de datos.
 
-# Comprobación de valores duplicados:
+### Comprobación de valores duplicados:
 
 4) Este proceso implica identificar y contar las filas duplicadas en el conjunto de datos.Los datos duplicados pueden distorsionar los resultados del análisis y, si están presentes, se debe solucionar el problema.
    No había filas duplicadas en el conjunto de datos.
    
-# Comprobación de la información de los datos:
+### Comprobación de la información de los datos:
 
 5) La función ` .info()` proporciona información esencial sobre el conjunto de datos, como los tipos de datos de las columnas y la cantidad de valores no nulos.
  Esto ayuda a comprender la estructura y la calidad de los datos.
 
 ## ANÁLISIS DEL DESEMPEÑO FINANCIERO:
 
-# En esta sección se analiza en profundidad el desempeño financiero de Adidas. 
+## En esta sección se analiza en profundidad el desempeño financiero de Adidas. 
 Al examinar indicadores clave críticos como los ingresos promedio, el margen operativo promedio, 
 las ganancias interanuales, las tendencias de ingresos anuales y los ingresos totales, 
 obtenemos información que arroja luz sobre la salud financiera y la trayectoria de crecimiento de la empresa.
 A través de estos análisis, buscamos descubrir patrones, tendencias y áreas potenciales para mejoras estratégicas.
 
-# Insight 
+## Insights 
 
 1) Los ingresos totales brindan una visión general del tamaño financiero de la empresa y su presencia en el mercado. 
 El seguimiento de esta métrica a lo largo del tiempo muestra la trayectoria de crecimiento de la empresa. 
